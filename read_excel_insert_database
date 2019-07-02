@@ -1,4 +1,4 @@
-package excel_oku;
+package excel_read;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,18 +21,18 @@ import java.sql.*;
  *
  * @author furkantekke
  */
-public class Excel_oku {
+public class Excel_read {
 
     /**
      * @param args the command line arguments
      */
-    // JDBC driver ve Veritabanı URL
+    // JDBC driver and Database URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost/deneme";
 
-// Veritabanı kullanıcı adı ve şifresi
+// database user name and password
     static final String USER = "root";
-    static final String PASS = "sifre";
+    static final String PASS = "pass";
     
     
     public static void main(String[] args) throws FileNotFoundException, IOException {
